@@ -1,0 +1,11 @@
+.m-material-header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.m-material-body {
+    width: 100%;
+    height: calc(100% - 50px);
+}

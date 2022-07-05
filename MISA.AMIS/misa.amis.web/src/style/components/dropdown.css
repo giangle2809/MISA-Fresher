@@ -1,0 +1,43 @@
+.ms-dropdown {
+    position: relative;
+}
+
+.ms-dropdown-toggle {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.ms-dropdown-ava {
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 50%;
+}
+
+.ms-dropdown-text {
+    font-family: NotoSans-Bold;
+    font-size: 14px;
+    /* padding: 5px 0; */
+    margin-right: 8px;
+}
+
+.ms-dropdown-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.ms-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    margin-top: 4px;
+    display: none;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px #e5e5e5;
+    z-index: 10;
+    transition: .5s;
+}

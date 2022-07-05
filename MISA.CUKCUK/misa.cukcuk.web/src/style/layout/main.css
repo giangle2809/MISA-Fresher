@@ -1,0 +1,84 @@
+@import url('../../assets//fontawesome-free-5.15.4-web/css/all.min.css');
+body {
+    margin: 0;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mx-input {
+    border-radius: 2px !important;
+}
+
+.m-main {
+    height: calc(100vh - 56px);
+    width: 100%;
+    display: flex;
+}
+
+.m-content {
+    padding: 10px;
+    width: calc(100% - 240px);
+}
+
+.m-space {
+    flex-grow: 1;
+}
+
+.m-title {
+    font-size: 22px;
+    color: #000000;
+}
+
+.m-w-45 {
+    width: 45%;
+}
+
+.m-w-50 {
+    width: 50%;
+}
+
+.m-w-10 {
+    width: 10%;
+}
+
+.m-w-18 {
+    width: 18%;
+}
+
+.m-w-20 {
+    width: 20%;
+}
+
+.m-w-80 {
+    width: 80%;
+}
+
+.m-w-82 {
+    width: 82%;
+}
+
+.m-w-40 {
+    width: 40%;
+}
+
+.m-w-60 {
+    width: 60%;
+}
+
+.m-row {
+    display: flex;
+    width: 100%;
+}
+
+.m-mb-6 {
+    margin-bottom: 6px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}

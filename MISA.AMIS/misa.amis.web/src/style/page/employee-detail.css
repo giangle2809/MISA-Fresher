@@ -1,0 +1,48 @@
+.ms-el-header {
+    display: flex;
+    align-items: center;
+    padding: 20px 12px 20px 32px;
+}
+
+.ms-el-container {
+    padding: 0 32px 20px 32px;
+}
+
+.ms-label-input {
+    font-size: 12px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.devide {
+    margin: 32px 0 20px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.ms-input-required {
+    color: red;
+}
+
+.ms-department-item {
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.ms-department-item:hover {
+    color: #2ca01c;
+    background-color: #f1f1f1;
+}
+
+.ms-department-item-active {
+    color: #35bf22;
+    background-color: #ebedf0;
+}
+
+.ms-department-item-header {
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #f1f1f1;
+}

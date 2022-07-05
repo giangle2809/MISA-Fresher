@@ -1,0 +1,22 @@
+﻿.ms-content {
+    position: relative;
+    height: calc(100vh - 48px);
+    padding-left: 20px;
+}
+
+.ms-content-header {
+    display: flex;
+    padding: 24px 30px 1px 0;
+    height: 60px;
+    width: calc(100% - 60px);
+}
+
+.ms-content-title {
+    margin-right: 8px;
+}
+
+.ms-content-body {
+    position: relative;
+    min-height: 0;
+    max-height: calc(100vh - 129px);
+}

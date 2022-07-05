@@ -1,0 +1,33 @@
+﻿.ms-header {
+    display: flex;
+    height: 48px;
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+}
+
+.ms-header-icon {
+    cursor: pointer;
+    margin: 0 10px;
+    height: 24px;
+    width: 24px;
+}
+
+.ms-header-item {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ms-account {
+    padding-right: 36px;
+}
+
+.ms-branch-icon {
+    transform: rotate(90deg);
+}
+
+.ms-branch-name {
+    padding-left: 10px;
+}

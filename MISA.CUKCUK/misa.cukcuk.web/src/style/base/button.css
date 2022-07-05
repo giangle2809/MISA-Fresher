@@ -1,0 +1,42 @@
+.m-button {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.m-btn-icon {
+    padding-right: 8px;
+}
+
+.m-btn-secondary {
+    border: 1px solid #CCCCCC;
+    background-color: #fafafa;
+}
+
+.m-btn-secondary:hover {
+    background-color: #e4f2ea;
+    border: 1px solid #0072bc;
+}
+
+.m-btn-disabled {
+    opacity: .3;
+}
+
+.m-btn-disabled:hover {
+    border: 1px solid #CCCCCC;
+    background-color: #fafafa;
+}
+
+.m-btn-primary {
+    border: 1px solid #0072bc;
+    background-color: #0072bc;
+    color: #fff;
+}
+
+.m-btn-primary:hover {
+    background-color: #008ce6;
+    border: 1px solid #008ce6;
+}

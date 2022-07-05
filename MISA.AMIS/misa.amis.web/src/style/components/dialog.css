@@ -1,0 +1,28 @@
+.ms-dialog {
+    display: none;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 100;
+}
+
+.ms-dialog .ms-dialog-content {
+    width: 900px;
+    max-height: 100vh;
+    overflow: auto;
+    position: relative;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.ms-dialog-content .ms-dialog-items {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}

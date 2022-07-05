@@ -1,0 +1,44 @@
+.m-conversion-table {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: calc(100% - 58px);
+    max-height: calc(100% - 58px);
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+.m-conversion-table table {
+    min-width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.m-conversion-table table thead {
+    background-color: #eeeeee;
+}
+
+.m-conversion-table thead tr {
+    height: 40px;
+}
+
+.m-conversion-table tbody tr {
+    height: 28px;
+}
+
+.m-conversion-table th,
+.m-conversion-table td {
+    border: 1px solid #ccc;
+}
+
+.m-row-index {
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.m-input-table {
+    outline: unset;
+    border: unset;
+    padding: 0 6px;
+    width: calc(100% - 12px);
+}

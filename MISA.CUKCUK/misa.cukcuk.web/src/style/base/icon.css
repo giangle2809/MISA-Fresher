@@ -1,0 +1,57 @@
+.mi {
+    background-image: url("../../assets/img/IconSprite.png");
+    background-repeat: no-repeat;
+}
+
+.mi-16 {
+    height: 16px;
+    width: 16px;
+}
+
+.mi-speaker {
+    background-position: 0 -624px;
+}
+
+.mi-document-add {
+    background-position: 0 -2648px;
+}
+
+.mi-document-clone {
+    background-position: 0 -2096px;
+}
+
+.mi-document-edit {
+    background-position: 0 -2631px;
+}
+
+.mi-document-delete {
+    background-position: 0 -2680px;
+}
+
+.mi-document-refresh {
+    background-position: 0 -2585px;
+}
+
+.mi-save {
+    background-position: 0px -2288px;
+}
+
+.mi-help {
+    background-position: 0px -1600px;
+}
+
+.mi-save-and-add {
+    background-position: 0px -2416px;
+}
+
+.mi-cancel {
+    background-position: 0px -1968px;
+}
+
+.mi-cancel-arrow {
+    background-position: 0 -1951px;
+}
+
+.mi-accept {
+    background-position: 0 -1841px;
+}

@@ -1,0 +1,37 @@
+.ms-toast-box {
+    display: none;
+    background-color: #fff;
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    height: 48px;
+    align-items: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    z-index: 100;
+    transition: opacity 2s linear;
+}
+
+.ms-toast-item {
+    margin: 0 12px;
+}
+
+.ms-toast-mess {
+    min-width: 150px;
+}
+
+.ms-toast-success {
+    background-position: -1600px -256px;
+}
+
+.ms-toast-error {
+    background-position: -536px -145px;
+}
+
+.ms-toast-warn {
+    background-position: -816px -146px;
+}
+
+.ms-toast-close {
+    background-position: -1175px -359px;
+}

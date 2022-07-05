@@ -1,0 +1,86 @@
+.m-header {
+    display: flex;
+    height: 56px;
+    width: 100%;
+    background-color: #0072bc;
+    align-items: center;
+}
+
+.m-header-left {
+    width: 220px;
+    flex-shrink: 1;
+    display: flex;
+    align-items: center;
+}
+
+.m-three-striper {
+    color: #fff;
+    font-size: 24px;
+    padding: 0 12px;
+}
+
+.m-logo {
+    background-image: url("../../assets/img/logoCukCuk.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    width: 200px;
+}
+
+.m-header-right {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.m-header-icon {
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 10px;
+    height: 56px;
+    line-height: 56px;
+}
+
+.m-header-icon:hover {
+    background-color: #025e99;
+}
+
+.m-account {
+    display: flex;
+    align-items: center;
+}
+
+.m-avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.m-fullname {
+    color: #fff;
+}
+
+.m-combobox-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 28px;
+    width: 200px;
+    padding-left: 10px;
+    background-color: #025e99;
+}
+
+.m-combobox-header::after {
+    position: absolute;
+    right: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0d7";
+    color: #fff;
+    padding: 0 10px;
+    cursor: pointer;
+}

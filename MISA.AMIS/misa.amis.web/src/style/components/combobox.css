@@ -1,0 +1,61 @@
+.ms-comboxbox-container {
+    position: relative;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+.ms-comboxbox-container input {
+    border: none;
+    width: calc(100% - 32px);
+    background-color: transparent;
+    outline: none;
+}
+
+.ms-combobox-error {
+    border-color: #FF4747;
+}
+
+.ms-border-focus {
+    border-color: #019160;
+}
+
+.ms-combobox-icon {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    width: 32px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ms-combobox-icon:hover {
+    background-color: #e0e0e0;
+}
+
+.ms-combobox-expand {
+    display: none;
+    background-color: #fff;
+    width: 100%;
+    overflow: auto;
+    max-height: 200px;
+    padding: 4px 0;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    border: 1px solid #bbbbbb;
+    border-radius: 2px;
+}
+
+.expand-in-top {
+    bottom: 32px;
+}
+
+.expand-in-bottom {
+    top: 32px;
+}

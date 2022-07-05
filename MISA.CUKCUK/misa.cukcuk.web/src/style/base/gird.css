@@ -1,0 +1,126 @@
+.m-gird {
+    position: relative;
+    height: 100%;
+}
+
+.m-gird-button {
+    display: flex;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+}
+
+.m-table {
+    min-width: 100%;
+    max-width: 100%;
+    height: calc(100% - 67px);
+    overflow: auto;
+}
+
+.m-table table {
+    min-width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.m-table thead {
+    position: sticky;
+    top: 0;
+    height: 64px;
+    background-color: #eeeeee;
+}
+
+.m-table tbody tr {
+    height: 28px;
+    cursor: pointer;
+}
+
+.m-table tbody tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+.m-table td,
+.m-table th {
+    border: 1px solid #cccccc;
+    padding: 0 6px;
+}
+
+.m-table tbody tr:hover {
+    background-color: #d7e9f4;
+}
+
+.m-row-selected {
+    background-color: #d7e9f4 !important;
+}
+
+.text-align-center {
+    text-align: center
+}
+
+.m-filter-box {
+    position: relative;
+    display: flex;
+    border: 1px solid #c5c5c5;
+    height: 28px;
+    min-width: 100px;
+}
+
+.m-filter-box button {
+    border: none;
+    border-right: 1px solid #c5c5c5;
+    width: 28px;
+    height: 28px;
+}
+
+.m-filter-box input {
+    border: none;
+    outline: none;
+}
+
+.m-pagination {
+    height: 38px;
+    padding: 0 6px;
+    width: calc(100% - 12px);
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+}
+
+.m-btn-pagi {
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #c5c5c5;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.m-expand-filter {
+    display: none;
+    top: 30px;
+    position: absolute;
+    padding: 6px 0;
+    background-color: #fff;
+    min-width: 100px;
+    border-radius: 2px;
+}
+
+.m-expand-filter-item {
+    padding: 0 6px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.m-expand-filter-item:hover {
+    background-color: #eee;
+}
+
+.m-expand-filter-item-active {
+    background-color: #0072bc;
+    color: #fff;
+}

@@ -1,0 +1,49 @@
+.ms-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 22px;
+}
+
+.ms-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.ms-checkbox-custom {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 18px;
+    width: 18px;
+    background-color: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.ms-checkbox:checked~.ms-checkbox-custom {
+    transform: rotate(180deg);
+}
+
+.ms-checkbox:checked~.ms-checkbox-custom::after {
+    border-color: #019160;
+    display: block;
+}
+
+.ms-checkbox-custom::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    height: 10px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate( 225deg);
+    width: 4px;
+}

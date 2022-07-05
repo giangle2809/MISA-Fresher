@@ -1,0 +1,47 @@
+.ms-radio-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 22px;
+    margin-right: 20px;
+}
+
+.ms-radio {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.ms-radio-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #bbbbbb;
+}
+
+.ms-radio:checked~.ms-radio-custom {
+    border-color: #019160;
+}
+
+.ms-radio:checked~.ms-radio-custom::after {
+    display: block;
+    background-color: #019160;
+}
+
+.ms-radio-custom::after {
+    position: absolute;
+    content: "";
+    left: 3px;
+    top: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}

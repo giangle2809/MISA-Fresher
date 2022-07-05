@@ -1,0 +1,161 @@
+﻿body {
+    margin: 0px;
+    font-family: NotoSans-Regular;
+    font-size: 13px;
+    background-color: #f4f5f8;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ms-container {
+    display: flex;
+}
+
+.ms-main {
+    position: relative;
+    max-width: calc( 100% - 187px);
+    height: 100vh;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+
+/* ảnh chứa các icon dùng chung */
+
+.ms {
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+}
+
+.ms-space {
+    flex-grow: 1;
+}
+
+
+/* css scroll */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+/* position */
+
+.sticky {
+    position: sticky;
+}
+
+
+/* title */
+
+.ms-title {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+
+
+/* padding */
+
+.px-6 {
+    padding: 0 1.5rem !important;
+}
+
+.pd-b-12 {
+    padding-bottom: 12px;
+}
+
+.pd-r-6 {
+    padding-right: 6px;
+}
+
+.pd-r-26 {
+    padding-right: 26px;
+}
+
+.pd-r-4 {
+    padding-right: 4px;
+}
+
+.pd-t-5 {
+    padding: 5px 0;
+}
+
+
+/* các loại display */
+
+.flex {
+    display: flex !important;
+}
+
+
+/* row và col */
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.col-5 {
+    width: 50%;
+}
+
+.col-6 {
+    width: 60%;
+}
+
+
+/* căn vị trí cho các position */
+
+.left-0 {
+    left: 0 !important;
+}
+
+.right-0 {
+    right: 0 !important;
+}
+
+
+/*#region import font*/
+
+@font-face {
+    font-family: 'NotoSans-Bold';
+    src: url('../../assets/fonts/notosans-bold.3ede5aff.woff2') format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans-Italic';
+    src: url('../../assets/fonts/notosans-italic.1c1aaac9.woff2') format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans-Regular';
+    src: url('../../assets/fonts/notosans-regular.2cb88a13.woff2') format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans-SemiBold';
+    src: url('../../assets/fonts/notosans-semibold.df3e6dc4.woff2') format('opentype');
+}
+
+
+/*#endregion import font*/

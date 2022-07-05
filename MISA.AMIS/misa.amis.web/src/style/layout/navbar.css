@@ -1,0 +1,105 @@
+﻿.ms-navbar {
+    height: 100vh;
+    width: 178px;
+    flex-shrink: 0;
+    background-color: #393a3d;
+}
+
+.ms-logo-container {
+    height: 48px;
+    display: flex;
+    padding: 0 24px;
+    align-items: center;
+}
+
+.ms-container-option {
+    margin-right: 10px;
+    background-position: -424px -86px;
+    height: 24px;
+    width: 24px;
+}
+
+.ms-logo {
+    background-image: url(../../assets/img/Logo_Module_TiengViet_White.66947422.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 32px;
+    width: 96px;
+}
+
+.ms-menu-item-list {
+    padding-top: 14px;
+    color: #fff;
+    overflow: auto;
+    max-height: calc(100vh - 48px);
+}
+
+
+/* #region icon position */
+
+.ms-sidebar-dashboard {
+    background-position: -30px -1628px;
+}
+
+.ms-sidebar-cash {
+    background-position: -73px -1628px;
+}
+
+.ms-sidebar-bank {
+    background-position: -117px -1628px;
+}
+
+.ms-sidebar-pu {
+    background-position: -161px -1628px;
+}
+
+.ms-sidebar-sale {
+    background-position: -204px -1628px;
+}
+
+.ms-sidebar-invoice {
+    background-position: -249px -1628px;
+}
+
+.ms-sidebar-stock {
+    background-position: -291px -1628px;
+}
+
+.ms-sidebar-tools {
+    background-position: -336px -1628px;
+}
+
+.ms-sidebar-fixed-assets {
+    background-position: -378px -1628px;
+}
+
+.ms-sidebar-tax {
+    background-position: -423px -1628px;
+}
+
+.ms-sidebar-price {
+    background-position: -467px -1628px;
+}
+
+.ms-sidebar-general {
+    background-position: -510px -1628px;
+}
+
+.ms-sidebar-budget {
+    background-position: -378px -1659px;
+}
+
+.ms-sidebar-report {
+    background-position: -547px -1628px;
+}
+
+.ms-sidebar-finance {
+    background-position: -204px -1664px;
+}
+
+
+/* #endregion */
+
+.ms-menu-icon-active {
+    background-position-y: -1585px;
+}
